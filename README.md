@@ -30,7 +30,7 @@ python main.py add "Finish homework" -d "Math problems on page 32" --due 2023-12
 python main.py list
 ```
 
-Want to sort by due date? Just add `--sort-by-due`:
+If you Want to sort by due date, add `--sort-by-due`:
 
 ```
 python main.py list --sort-by-due
@@ -65,4 +65,3 @@ python main.py --help
 
 Had some trouble with the date sorting, especially when some tasks have due dates and others don't. Also making sure the interface was easy to use took some thinking.
 
-Feel free to use this however you want! 
